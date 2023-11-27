@@ -6,7 +6,7 @@
 /*   By: ahsadik <ahsadik@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 17:56:28 by ahsadik           #+#    #+#             */
-/*   Updated: 2023/11/23 11:29:16 by ahsadik          ###   ########.fr       */
+/*   Updated: 2023/11/25 13:32:14 by ahsadik          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-# include <limits.h>
 
 typedef struct s_list
 {

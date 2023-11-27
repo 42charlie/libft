@@ -45,7 +45,7 @@ int	ft_atoi(const char *str)
 		while (ft_isdigit(*str))
 		{
 			result = result * 10 + (*str - 48);
-			if (result > LLONG_MAX)
+			if (result > 9223372036854775807)
 				return (check(sign));
 			str++;
 		}
